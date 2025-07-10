@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikhil's Portfolio</title>
+  
+  <link rel="shortcut icon" href="./assets/images/fol.png" type="image/png" sizes="32x32">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="./assets/css/About.css">
+<link rel="stylesheet" href="./assets/css/portfolio.css">
+<link rel="stylesheet" href="./assets/css/contact.css">
+<link rel="stylesheet" href="./assets/css/background.css">
+
+<meta property="og:title" content="Hey, My Name Is Nikhil Saini">
+<meta property="og:description" content="Explore my portfolio showcasing my skills, projects, and experiences.">
+
+</head>
+<body>
+
+  <div class="preloader" id="preloader">
+    <div class="terminal">
+      <div class="terminal-header">
+        <div class="terminal-buttons">
+          <div class="terminal-button red"></div>
+          <div class="terminal-button yellow"></div>
+          <div class="terminal-button green"></div>
+        </div>
+        <div class="terminal-title">portfolio.exe</div>
+      </div>
+      <div class="terminal-content">
+        <div class="progress-container">
+          <div class="progress-bar"></div>
+        </div>
+        
+        <p class="terminal-line command">initializing portfolio system...</p>
+        <p class="terminal-line response">Loading components...</p>
+        <p class="terminal-line command">npm install portfolio-dependencies</p>
+        <p class="terminal-line response">Successfully installed packages</p>
+        <p class="terminal-line command">loading Nikhil_Saini.profile</p>
+        <p class="terminal-line response">Profile loaded successfully!</p>
+        <div class="terminal-menu hidden">
+          <p class="terminal-line">&nbsp;</p>
+          <p class="terminal-line">Welcome to Nikhil's Portfolio Terminal</p>
+          <p class="terminal-line">&nbsp;</p>
+          <p class="terminal-line response">Please select an option and type the number below:</p>
+          <p class="terminal-line response">1. Home - Overview & Skills</p>
+          <p class="terminal-line response">2. Projects - View My Work</p>
+          <p class="terminal-line response">3. Experience - Professional Journey</p>
+          <p class="terminal-line response">4. Contact - Get In Touch</p>
+          <div class="terminal-input-line">
+            <span class="prompt">$</span>
+            <input type="text" class="terminal-input" autofocus>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+        
+          <img src="./assets/images/nikhil.png" alt="Nikhil Saini" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Nikhil Saini">Nikhil Saini</h1>
+
+          <p class="title">DevOps | SRE | AWS engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:nsaini3012@gmail.com" class="contact-link">nsaini3012@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+19055199035" class="contact-link">+1 905 519 9035</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">University</p>
+
+              <time datetime="2022-09-01">McMaster University</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Vancouver, BC</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.instagram.com/nisai.96/?locale=de&hl=am-et" class="social-link" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/nikhil364" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.researchgate.net/scientific-contributions/Nikhil-Saini-2199834418" class="social-link" target="_blank">
+              <i class="fab fa-researchgate"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/nikhil-saini-0203b4137/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <div class="main-content">
+      <div class="os-toolbar">
+        <div class="toolbar-left">
+          <div class="toolbar-nav">
+            <button class="nav-btn">
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </button>
+            <button class="nav-btn">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </button>
+          </div>
+          <div class="file-path">
+            <span class="path-text">~/Portfolio/Home</span>
+          </div>
+        </div>
+        <div class="toolbar-right">
+        </div>
+      </div>
+
+    
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link active" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#resume" class="navbar-link" data-nav-link>Resume</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <article class="home" data-page="home" id="home">
+        <div class="hero">
+          <h1>Hey, My Name Is <span>Nikhil Saini</span></h1>
+          <h2>I'm a <span class="typing"></span></h2>
+          <p>
+            I am passionate about Dev-ops and Automation, for me dev-ops is about making robust and safety systems. I have 5 Years of strong industry experience   
+            working on Cloud and On-Premis environments. I focus on learning, growing, and tackling challenges with curiosity and determination.
+          </p>
+          <div class="button-container">
+            <a href="./assets/resume.pdf" class="os-button" download>
+              <ion-icon name="document-text-outline"></ion-icon>
+              <span>Download Resume</span>
+            </a>
+            <a href="#contact" class="os-button">
+              <ion-icon name="mail-outline"></ion-icon>
+              <span>Contact Me</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="stats-container">
+          <div class="stat-box">
+            <div class="stat-box-header">
+              <div class="stat-content">
+                <div class="stat-icon">
+                  <ion-icon name="document-text"></ion-icon>
+                </div>
+                <div class="stat-info">
+                  <!-- <span class="stat-number">2</span> -->
+                  <span class="stat-label">Projects</span>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown-content">
+              <div class="pub-item">
+                <h4>Motion detection Raspberry Pi Camera: CV2 based Python application</h4>
+                <p>Used for room security</p>
+              </div>
+              <div class="pub-item">
+                <h4>Raspberry Pi camera based green house monitoring system: CV2 Python application to
+                  monitor plant health using leaf color</h4>
+                <p>Project used for personal greenhouse monitoring</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="stat-box">
+            <div class="stat-box-header">
+              <div class="stat-content">
+                <div class="stat-icon">
+                  <ion-icon name="layers"></ion-icon>
+                </div>
+                <div class="stat-info">
+                  <span class="stat-label">Full Stack Developer</span>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown-content">
+              <div class="tech-stack">
+                <div class="tech-item">
+                  <i class="fab fa-python"></i>
+                  <span>Python</span>
+                </div>
+                <div class="tech-item">
+                  <i class="fab fa-react"></i>
+                  <span>React</span>
+                </div>
+                <div class="tech-item">
+                  <i class="fab fa-js"></i>
+                  <span>JavaScript</span>
+                </div>
+                <div class="tech-item">
+                  <i class="fab fa-node-js"></i>
+                  <span>Node.js</span>
+                </div>
+                <div class="tech-item">
+                  <i class="fas fa-database"></i>
+                  <span>SQLite</span>
+                </div>
+                <div class="tech-item">
+                  <i class="fas fa-elephant"></i>
+                  <span>PostgreSQL</span>
+                </div>
+                <div class="tech-item">
+                  <i class="fas fa-elephant"></i>
+                  <span>Docker</span>
+                </div>
+                <div class="tech-item">
+                  <i class="fas fa-elephant"></i>
+                  <span>Kubernetes</span>
+                </div>
+                <div class="tech-item">
+                  <i class="fas fa-elephant"></i>
+                  <span>AWS, GCP, Azure</span>
+                </div>
+                <div class="tech-item">
+                  <i class="fas fa-elephant"></i>
+                  <span>Grafana</span>
+                </div>
+                <div class="tech-item">
+                  <i class="fas fa-elephant"></i>
+                  <span>Dynatrace</span>
+                </div>
+                <div class="tech-item">
+                  <i class="fas fa-elephant"></i>
+                  <span>ELK</span>
+                </div>
+                <div class="tech-item">
+                  <i class="fas fa-elephant"></i>
+                  <span>GitHub, GitLab</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="stat-box">
+            <div class="stat-box-header">
+              <div class="stat-content">
+                <div class="stat-icon">
+                  <ion-icon name="trophy"></ion-icon>
+                </div>
+                <div class="stat-info">
+                  <span class="stat-label">Interesting Articles</span>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown-content">
+              <div class="pub-item">
+                <h4>AWS CDK vs. Terraform</h4>
+                <p>A thorough 22-minute read comparing imperative (CDK) vs. declarative (Terraform) IaC paradigms, including sample code, architectural trade-offs, and expert insights</p>
+                <p><a href="https://spacelift.io/blog/aws-cdk-vs-terraform?utm_source=chatgpt.com" target="_blank" style="color: var(--orange-yellow-crayola);">
+                  <i class="fas fa-external-link-alt"></i> View on Devpost
+                </a></p>
+              </div>
+              <div class="pub-item">
+                <h4>Migrating AWS Infrastructure from Terraform to AWS CDK</h4>
+                <p>Detailed walkthrough of a real-world migration, including resource import strategies, code examples, and lessons learned about modular CDK in TypeScript</p>
+                <p><a href="https://medium.com/better-programming/migrating-aws-infrastructure-from-terraform-to-aws-cdk-18fb349cdaa8" target="_blank" style="color: var(--orange-yellow-crayola);">
+                  <i class="fas fa-external-link-alt"></i> View on Devpost
+                </a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+ 
+      <article class="resume" data-page="resume" id="resume">
+        <div class="left-column">
+        <section class="timeline education-box">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">McMaster University</h4>
+              <span>B.Tech in Biotechnology</span>
+              <div class="date-badge">Sept 2015 - Dec 2020</div>
+              <div class="achievement-badges">
+              </div>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">AWS Certifications</h4>
+              <span>AWS CERTIFIED SOLUTIONS ARCHITECT-PROFESSIONAL</span>
+              <div class="date-badge">June 2025 - June 2028</div>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline skills-box">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="code-slash-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Skills</h3>
+          </div>
+          
+          <div class="skills-category">
+            <h4 class="category-title">Languages</h4>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <img src="/assets/images/python.png" alt="Python" class="skill-icon">
+                <span class="skill-name">Python</span>
+              </div>
+              
+              <div class="skill-item">
+                <img src="/assets/images/java.png" alt="Java" class="skill-icon">
+                <span class="skill-name">Java</span>
+              </div>
+              
+              <div class="skill-item">
+                <img src="/assets/images/js.png" alt="JavaScript" class="skill-icon">
+                <span class="skill-name">JavaScript</span>
+              </div>
+              
+              <div class="skill-item">
+                <img src="/assets/images/html.png" alt="HTML" class="skill-icon">
+                <span class="skill-name">HTML</span>
+              </div>
+              
+              <div class="skill-item">
+                <img src="/assets/images/css-3.png" alt="CSS" class="skill-icon">
+                <span class="skill-name">CSS</span>
+              </div>
+              
+
+             <div class="skill-item">
+              <img src="/assets/images/c-.png" alt="C" class="skill-icon">
+              <span class="skill-name">C</span>
+            </div>
+            
+            <div class="skill-item">
+              <img src="/assets/images/c.png" alt="C++" class="skill-icon">
+              <span class="skill-name">C++</span>
+            </div>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h4 class="category-title">Technologies & Tools</h4>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <img src="/assets/images/atom.png" alt="React" class="skill-icon">
+                <span class="skill-name">React</span>
+              </div>
+              
+              <div class="skill-item">
+                <img src="/assets/images/SQLite.png" alt="SQLite" class="skill-icon">
+                <span class="skill-name">SQLite</span>
+              </div>
+              
+              <div class="skill-item">
+                  <img src="/assets/images/elephant.png" alt="PostgreSQL" class="skill-icon">
+                <span class="skill-name">PostgreSQL</span>
+              </div>
+              
+              <div class="skill-item">
+                <img src="/assets/images/node.png" alt="Node.js" class="skill-icon">
+                <span class="skill-name">Node.js</span>
+              </div>
+
+              <div class="skill-item">
+                <img src="/assets/images/git.png" alt="Git" class="skill-icon">
+                <span class="skill-name">Git</span>
+              </div>
+
+              <div class="skill-item">
+                <img src="/assets/images/bash.png" alt="Bash" class="skill-icon">
+                <span class="skill-name">Bash</span>
+              </div>
+
+              <div class="skill-item">
+                <img src="/assets/images/figma.png" alt="Figma" class="skill-icon">
+                <span class="skill-name">Figma</span>
+              </div>
+
+              <div class="skill-item">
+                <img src="/assets/images/jira.png" alt="Jira" class="skill-icon">
+                <span class="skill-name">Jira</span>
+              </div>
+              
+              <div class="skill-item">
+                <img src="/assets/images/scrum.png" alt="Scrum" class="skill-icon">
+                <span class="skill-name">Scrum</span>
+              </div>
+
+              <div class="skill-item">
+                <img src="/assets/images/agile.png" alt="Agile" class="skill-icon">
+                <span class="skill-name">Agile</span>
+              </div>
+
+              <div class="skill-item">
+                <img src="/assets/images/sdlc.png" alt="Software Development Cycle" class="skill-icon">
+                <span class="skill-name">SDLC</span>
+              </div>
+
+              <div class="skill-item">
+                <img src="/assets/images/uml.png" alt="UML" class="skill-icon">
+                <span class="skill-name">UML</span>
+              </div>
+
+              <div class="skill-item">
+                <img src="/assets/images/vue.png" alt="Vue.js" class="skill-icon">
+                <span class="skill-name">Vue.js</span>
+              </div>
+              
+              <div class="skill-item">
+                <img src="/assets/images/flask.jpg" alt="Flask" class="skill-icon">
+                <span class="skill-name">Flask</span>
+              </div>
+
+            
+            </div>
+          </div>
+        </section>
+
+    </div>
+	<div class="right-column">
+    
+        <section class="timeline work-box">
+          <div class="work-title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="work-timeline-list">
+            <li class="work-timeline-item">
+              <div class="work-header">
+                <h4 class="h4 work-item-title">AWS Engineer (Hybrid)</h4>
+                <div class="work-location">
+                  <span> HCL Technologies</span>
+                  <span class="work-location-sub">Vancouver, Canada</span>
+                </div>
+                <div class="work-meta">
+                  <div class="work-date-badge">July 2024- Present</div>
+                  <button class="toggle-btn">▼</button>
+                </div>
+              </div>
+              <div class="work-details hidden">
+                <ul class="work-points">
+                  <li>Please download resume
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="work-timeline-item">
+              <div class="work-header">
+                <h4 class="h4 work-item-title">DevOps Engineer (Remote)</h4>
+                <div class="work-location">
+                  <span>Sizzle</span>
+                  <span class="work-location-sub">Vancouver, Canada</span>
+                </div>
+                <div class="work-meta">
+                  <div class="work-date-badge">April 2023- July 2024</div>
+                  <button class="toggle-btn">▼</button>
+                </div>
+              </div>
+              <div class="work-details hidden">
+                <ul class="work-points">
+                  <li>Please download resume
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="work-timeline-item">
+              <div class="work-header">
+                <h4 class="h4 work-item-title">DevOps Engineer (Remote)</h4>
+                <div class="work-location">
+                  <span>TheFittingRoomTech</span>
+                  <span class="work-location-sub">Vancouver, Canada</span>
+                </div>
+                <div class="work-meta">
+                  <div class="work-date-badge">Dec 2021- April 2023</div>
+                  <button class="toggle-btn">▼</button>
+                </div>
+              </div>
+              <div class="work-details hidden">
+                <ul class="work-points">
+                  <li>Please download resume
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="work-timeline-item">
+              <div class="work-header">
+                <h4 class="h4 work-item-title">Python developer (Hybrid)</h4>
+                <div class="work-location">
+                  <span>McMaster University</span>
+                  <span class="work-location-sub">Ontario, Canada</span>
+                </div>
+                <div class="work-meta">
+                  <div class="work-date-badge"> January 2021- December 2021</div>
+                  <button class="toggle-btn">▼</button>
+                </div>
+              </div>
+              <div class="work-details hidden">
+                <ul class="work-points">
+                  <li>Please download resume
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="work-timeline-item">
+              <div class="work-header">
+                <h4 class="h4 work-item-title">Research assistant co-op (Hybrid)</h4>
+                <div class="work-location">
+                  <span>McMaster University</span>
+                  <span class="work-location-sub">Ontario, Canada</span>
+                </div>
+                <div class="work-meta">
+                  <div class="work-date-badge">Jan 2020 to August 2020</div>
+                  <button class="toggle-btn">▼</button>
+                </div>
+              </div>
+              <div class="work-details hidden">
+                <ul class="work-points">
+                  <li>Please download resume
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="work-timeline-item">
+              <div class="work-header">
+                <h4 class="h4 work-item-title">DevOps Engineer Co-op (Hybrid)</h4>
+                <div class="work-location">
+                  <span>Adlib Softwares</span>
+                  <span class="work-location-sub">Ontario, Canada</span>
+                </div>
+                <div class="work-meta">
+                  <div class="work-date-badge">Jan 2019 to Aug 2019</div>
+                  <button class="toggle-btn">▼</button>
+                </div>
+              </div>
+              <div class="work-details hidden">
+                <ul class="work-points">
+                  <li>Please download resume
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </section>
+      
+      <section class="timeline new-box">
+        <div class="new-title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="document-text-outline"></ion-icon>
+          </div>
+          <h3 class="h3">Projects</h3>
+        </div>
+
+        <div class="publication-item">
+          <h4 class="publication-title">AWS X-ray and Application Signals for e-2-e tracing using OTEL</h4>
+          <p class="publication-venue">Project for BMO
+            <a href="https://repost.aws/articles/ARTvHbg1TfRMijt-V0YGSudw/observe-your-applications-with-amazon-cloudwatch-application-signals-preview" 
+               target="_blank" 
+               class="publication-link"
+               title="View Publication">
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </p>
+        </div>
+
+        <div class="publication-item">
+          <h4 class="publication-title">ETL Log and metrics transformation AWS Lambda and PI data scanning in AWS ECS-Fargate</h4>
+          <p class="publication-venue">Python Projects for BMO</p>
+        </div>
+      </section>
+	  </article>
+     
+      <!-- <article class="portfolio" data-page="portfolio" id="portfolio">
+
+
+        <div class="portfolio-grid">
+          <div class="project-card">
+            <div class="project-preview development-preview">
+              <ion-icon name="construct-outline"></ion-icon>
+              <span class="development-text">In Development</span>
+            </div>
+
+            <h4 class="project-title">Financial Expense Tracker</h4>
+
+            <div class="project-tags">
+              <span class="project-tag">
+                <ion-icon name="logo-react"></ion-icon>
+                React
+              </span>
+              <span class="project-tag">
+                <ion-icon name="logo-nodejs"></ion-icon>
+                Node.js
+              </span>
+              <span class="project-tag">
+                <ion-icon name="logo-javascript"></ion-icon>
+                JS
+              </span>
+            </div>
+
+            <p class="project-description">
+              A dynamic web application that enables users to track their daily expenses and visualize spending patterns through interactive charts, helping users make informed financial decisions.
+            </p>
+
+            <div class="project-meta">
+                <div class="project-date">
+                    Dec 2023 - Present
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/paremeter373/Expense-Tracker-" class="project-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </div>
+            </div>
+          </div>
+
+
+
+          <div class="project-card">
+            <div class="project-preview">
+              <img src="./assets/images/meme2.png" alt="MemeStudy AI Learning Assistant Preview">
+            </div>
+
+            <h4 class="project-title">MemeStudy: AI Learning Assistant</h4>
+
+            <div class="project-tags">
+              <span class="project-tag">
+                <ion-icon name="logo-react"></ion-icon>
+                React
+              </span>
+              <span class="project-tag">
+                <ion-icon name="logo-html5"></ion-icon>
+                HTML/CSS
+              </span>
+              <span class="project-tag">
+                <ion-icon name="logo-python"></ion-icon>
+                Python
+              </span>
+              <span class="project-tag">
+                <ion-icon name="server-outline"></ion-icon>
+                Flask
+              </span>
+              <span class="project-tag">
+                <ion-icon name="server-outline"></ion-icon>
+                SQLite
+              </span>
+              <span class="project-tag">
+                <ion-icon name="cloud-outline"></ion-icon>
+                GroqAPI
+              </span>
+            </div>
+
+            <p class="project-description">
+              A learning platform that transforms traditional studying into an engaging experience by generating relevant memes for user-created flashcards and questions, making education both fun and memorable.
+            </p>
+
+            <div class="project-meta">
+                <div class="project-date">
+                    July 2024 - July 2024
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/paremeter373/Memeify-Project" class="project-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=TcF87fI3IfA" class="project-link">
+                        <ion-icon name="open-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-preview">
+              <img src="./assets/images/anno3.png" alt="Annotation Tool Preview">
+            </div>
+
+            <h4 class="project-title">Annotation Tool</h4>
+
+            <div class="project-tags">
+              <span class="project-tag">
+                <ion-icon name="logo-html5"></ion-icon>
+                HTML
+              </span>
+              <span class="project-tag">
+                <ion-icon name="logo-css3"></ion-icon>
+                CSS
+              </span>
+              <span class="project-tag">
+                <ion-icon name="logo-firebase"></ion-icon>
+                Firebase
+              </span>
+              <span class="project-tag">
+                <ion-icon name="server-outline"></ion-icon>
+                SQLite
+              </span>
+            </div>
+
+            <p class="project-description">
+              Developing a full-stack annotation tool to streamline data labeling and support training Large Language Models. This tool enables the extraction of critical information such as labels, codes, and key phrases directly from text, significantly reducing the time and effort required for manual annotation.
+            </p>
+
+            <div class="project-meta">
+                <div class="project-date">
+                    May 2024 - Present
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/paremeter373/LLM-Annotation-Tool-" class="project-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-preview">
+              <img src="./assets/images/stu.png" alt="Certification Management System Preview">
+            </div>
+
+            <h4 class="project-title">Certification Management System</h4>
+
+            <div class="project-tags">
+              <span class="project-tag">
+                <ion-icon name="logo-react"></ion-icon>
+                React
+              </span>
+              <span class="project-tag">
+                <ion-icon name="logo-nodejs"></ion-icon>
+                Node.js
+              </span>
+              <span class="project-tag">
+                <ion-icon name="server-outline"></ion-icon>
+                MongoDB
+              </span>
+              <span class="project-tag">
+                <ion-icon name="server-outline"></ion-icon>
+                Express.js
+              </span>
+            </div>
+
+            <p class="project-description">
+              A comprehensive platform enabling users to complete courses, earn certifications, and manage their skills through an intuitive interface with authentication. Users will be able to track their progress and receive certifications upon completing specific courses. The platform will also offer personalized learning paths.
+            </p>
+
+            <div class="project-meta">
+                <div class="project-date">
+                    October 2023 - Present
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Christopher4113/YOU" class="project-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-preview">
+              <img src="./assets/images/wns.jpg" alt="Notification System Preview">
+            </div>
+
+            <h4 class="project-title">Notification Management System</h4>
+
+            <div class="project-tags">
+              <span class="project-tag">
+                <ion-icon name="logo-react"></ion-icon>
+                React
+              </span>
+              <span class="project-tag">
+                <ion-icon name="logo-nodejs"></ion-icon>
+                Node.js
+              </span>
+              <span class="project-tag">
+                <ion-icon name="server-outline"></ion-icon>
+                MongoDB
+              </span>
+              <span class="project-tag">
+                <ion-icon name="flash-outline"></ion-icon>
+                Socket.IO
+              </span>
+              <span class="project-tag">
+                <ion-icon name="desktop-outline"></ion-icon>
+                Electron.js
+              </span>
+              <span class="project-tag">
+                <ion-icon name="logo-windows"></ion-icon>
+                Windows API
+              </span>
+              
+            </div>
+
+            <p class="project-description">
+              A desktop application built with Electron.js that helps users manage notification overload by monitoring and blocking excessive notifications from selected messaging apps that are available on Windows. This system works by tracking notification frequency and blocks them when they exceed one every three seconds.
+            </p>
+
+            <div class="project-meta">
+              <div class="project-date">
+                Aug 2024 - Aug 2024
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+      </article> -->
+
+   
+
+      <article class="contact" data-page="contact" id="contact">
+        <section class="contact-form">
+          <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form id="contact-form">
+            <input type="hidden" name="access_key" value="7e8fb128-9e5d-48ce-9b59-4921e1b6c7e2">
+            
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+            <div class="input-wrapper">
+              <input type="text" name="name" class="form-input" placeholder="Your name" required>
+              <input type="email" name="email" class="form-input" placeholder="Your email" required>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your message" required></textarea>
+
+            <button class="form-btn" type="submit">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+
+
+  
+
+</html>
